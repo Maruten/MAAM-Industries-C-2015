@@ -44,3 +44,19 @@ Breakfast - $9.00 []
 Lunch - $12.00 []
 Dinner - $16.00 []
 
+void food(double bfast, double lonch, double din2)
+{
+  int arrival, departure;
+  cout << "Please enter the time of your arrival." << endl;
+  
+  // day 1: get breakfast if departure is before 7am 
+  // lunch if departure is before 12 noon
+  // dinner if departure is before 6pm
+  
+  // last day: breakfast if arrival is after 8am 
+  // lunch if arrival is after 1pm
+  // dinner is arrival is after 7pm 
+  
+  // ask for amounts of allowable meals??? 
+  
+}
