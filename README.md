@@ -7,9 +7,9 @@
 
 using namespace std;
 
-Void food(double, double, double, double, double);
-Void transportation(double, double, double, double):
-Void hospitality(double, double, double, double, double);//Function Prototypes
+void food(double, double, double, double, double);
+void transportation(double, double, double, double):
+void hospitality(double, double, double, double, double);//Function Prototypes
 //Needs stubs and Drivers
 
 int main()
