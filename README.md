@@ -8,7 +8,7 @@
 using namespace std;
 
 void food(double, double, double, double, double);
-void transportation(double, double, double, double):
+void transportation(double, double, double, double);
 void hospitality(double, double, double, double, double);//Function Prototypes
 //Needs stubs and Drivers
 
@@ -84,22 +84,7 @@ void tranportation()
     }
     // End of program
     
-//Things to ask for (checkbox):
-Total days []
-Time of departure, time of arrival back home []
-(If) Roundtrip fare []
-(If) Car Rentals []
-(If) Private Vehicle Miles Driven - $0.27 per mile as constant []
-(If) Parking Fees - $6.00 per day []
-(If) Taxi Fees - $10.00 per day []
-(If) Conference/Registration fees []
-Hotel Expenses - $90.00 per day []
-EACH MEAL:
-Breakfast - $9.00 []
-Lunch - $12.00 []
-Dinner - $16.00 []
-
-void food(double bfast, double lonch, double din2)
+void food(double bfast, double lonch, double dindin)
 {
   int arrival, departure;
   cout << "Please enter the time of your arrival." << endl;
@@ -115,3 +100,18 @@ void food(double bfast, double lonch, double din2)
   // ask for amounts of allowable meals??? 
   
 }
+
+//Things to ask for (checkbox):
+Total days []
+Time of departure, time of arrival back home []
+(If) Roundtrip fare []
+(If) Car Rentals []
+(If) Private Vehicle Miles Driven - $0.27 per mile as constant []
+(If) Parking Fees - $6.00 per day []
+(If) Taxi Fees - $10.00 per day []
+(If) Conference/Registration fees []
+Hotel Expenses - $90.00 per day []
+EACH MEAL:
+Breakfast - $9.00 []
+Lunch - $12.00 []
+Dinner - $16.00 []
